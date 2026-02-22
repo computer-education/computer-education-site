@@ -19,7 +19,7 @@
 
         <!-- Content Grid -->
         <div class="container mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 items-center h-full">
-            
+
             <!-- Left Column: Text -->
             <div class="text-center md:text-left space-y-6">
                 <h1 class="text-4xl md:text-6xl font-extrabold uppercase tracking-tight text-transparent bg-clip-text bg-gradient-to-br from-green-600 to-emerald-400 drop-shadow-sm">
@@ -39,36 +39,36 @@
             <!-- Right Column: Visuals (Mascot & Floating Icons) -->
             <div class="relative flex justify-center items-center h-[400px] md:h-[500px]">
                 <!-- Rotating Background behind Mascot -->
-                <img src="{{asset('images/rotasi.png')}}" 
-                     class="rotasi-img absolute w-[300px] md:w-[450px] opacity-80" 
+                <img src="{{asset('images/rotasi.png')}}"
+                     class="rotasi-img absolute w-[300px] md:w-[450px] opacity-80"
                      alt="Rotating Background" />
-                
+
                 <!-- Mascot -->
-                <img src="{{asset('images/Maskot_CE-removebg-preview.png')}}" 
-                     class="logo-mantul relative z-20 w-[200px] md:w-[280px] drop-shadow-2xl" 
+                <img src="{{asset('images/Maskot_CE-removebg-preview.png')}}"
+                     class="logo-mantul relative z-20 w-[200px] md:w-[280px] drop-shadow-2xl"
                      alt="Mascot CE" />
 
                 <!-- Floating Icons (Positioned relative to this column) -->
                 <!-- CorelDraw -->
                 <div class="animasi-satu absolute top-0 left-0 md:left-10 z-30">
-                    <img src="{{asset('images/coreldraw.png')}}" 
-                         class="w-16 h-16 md:w-20 md:h-20 drop-shadow-lg" 
+                    <img src="{{asset('images/coreldraw.png')}}"
+                         class="w-16 h-16 md:w-20 md:h-20 drop-shadow-lg"
                          alt="CorelDraw" />
                 </div>
 
                 <!-- Coding -->
-                <img src="{{asset('images/coding.png')}}" 
-                     class="animasi-2 absolute bottom-10 left-0 md:left-10 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg" 
+                <img src="{{asset('images/coding.png')}}"
+                     class="animasi-2 absolute bottom-10 left-0 md:left-10 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg"
                      alt="Coding" />
 
                 <!-- Video -->
-                <img src="{{asset('images/video.png')}}" 
-                     class="animasi-3 absolute bottom-20 right-0 md:right-10 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg" 
+                <img src="{{asset('images/video.png')}}"
+                     class="animasi-3 absolute bottom-20 right-0 md:right-10 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg"
                      alt="Video" />
 
                 <!-- Camera -->
-                <img src="{{asset('images/cameraa.png')}}" 
-                     class="animasi-4 absolute top-10 right-0 md:right-5 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg" 
+                <img src="{{asset('images/cameraa.png')}}"
+                     class="animasi-4 absolute top-10 right-0 md:right-5 z-30 w-14 h-14 md:w-16 md:h-16 drop-shadow-lg"
                      alt="Camera" />
             </div>
         </div>
@@ -105,7 +105,7 @@
         <!-- Decoration -->
         <div class="absolute top-0 left-0 w-64 h-64 bg-green-200/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div class="absolute bottom-0 right-0 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
-        
+
         <div class="container mx-auto px-6 relative z-10">
             <!-- Header -->
             <div class="text-center max-w-3xl mx-auto mb-16">
@@ -224,7 +224,7 @@
                 <!-- Controls -->
                 <div class="swiper-pagination"></div>
             </div>
-            
+
             <!-- Call to Action -->
             <div class="mt-12 text-center">
                  <a href="/moduls" class="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 hover:bg-green-600 text-white rounded-full font-semibold transition-all duration-300 shadow-xl hover:shadow-green-500/25 group">
@@ -234,7 +234,7 @@
             </div>
         </div>
     </section>
-    
+
     {{-- Pengurus --}}
     <section class="sec-pengurus py-20 bg-white" id="pengurus">
         <div class="text-center mb-12">
@@ -253,7 +253,7 @@
                              <img src="{{ asset('storage/' . $item->foto) }}" alt="{{ $item->nama }}"
                                 class="relative w-full h-full rounded-full object-cover border-4 border-white shadow-md">
                         </div>
-                        
+
                         <h3 class="mt-4 text-xl font-bold text-gray-800">{{ $item->nama }}</h3>
                         <p class="mt-1 text-green-600 font-medium text-sm bg-green-50 inline-block px-3 py-1 rounded-full">{{ $item->jabatan }}</p>
                     </div>
